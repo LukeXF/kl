@@ -1,0 +1,294 @@
+.navbar-inverse {
+	background: rgb(51, 51, 51);
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+ul.nav.navbar-nav li a {
+	padding: 30px;
+}
+
+.animate, .animate:hover {
+   transition: all .25s ease-in-out;
+   -moz-transition: all .25s ease-in-out;
+   -webkit-transition: all .25s ease-in-out;
+}
+
+.animate2, .animate2:hover {
+   transition: all 1.25s ease-in-out;
+   -moz-transition: all 1.25s ease-in-out;
+   -webkit-transition: all 1.25s ease-in-out;
+}
+
+* {
+	font-family: "omnes-pro",sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+	font-family: "ff-market-web",cursive;
+}
+
+.navbar-brand {
+	font-size: 50px;
+	padding: 32px;
+}
+
+.body {
+	background-color: #eee;
+}
+
+.jumbotron p {
+	font-weight: 400;
+}
+
+.container.dashboard > div > div > .avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 3px;
+}
+
+.container.dashboard > div > div > .main.dash {
+	color: #ffffff !important;
+	font-weight: 100;
+	margin-top: 10px;
+}
+
+.dashnav > li > a > .fa2 {
+	display: -webkit-inline-box;
+	margin-left: auto;
+	color: #FFF;
+	margin-right: auto;
+	height: 25px;
+	width: 25px;
+	background-size: 100%;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.iconside {
+	display: table;
+	color: #666;
+	height: 23px;
+	width: 23px;
+	margin-top: 5px;
+	background-size: 100%;
+	opacity: 0.7;
+	float: left;
+}
+
+.textside {
+	display: table;
+}
+
+h2.textside {
+	display: table;
+	font-weight: 300;
+	color: #555;
+	margin-top: 8px;
+}
+
+.dashnav > li > a:hover{
+	opacity: 0.8;
+}
+
+.dashnav > li > a {
+	opacity: 0.5;
+}
+
+@media screen and (min-width: 1324px) {
+	.dashnav > li::after {
+		content: "\00a0";
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 1px;
+		height: 100%;
+		background-image: -webkit-linear-gradient(top,rgba(87, 87, 87, 1) 0,rgba(222, 222, 222, 0) 100%);
+		background-image: linear-gradient(to bottom,rgba(87, 87, 87, 1) 0,rgba(222, 222, 222, 0) 100%);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdedede',endColorstr='#ffffffff',GradientType=0);
+	}
+
+	.dashnav > li:last-child::after {
+		background-image: -webkit-linear-gradient(top,rgba(87, 87, 87, 1) 0,rgba(222, 222, 222, 0) 100%);
+		background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 0) 100%);
+	}
+}
+
+
+.jumbotron {
+	background: url(http://www.klpolestudio.co.uk/assets/img/banners/007.jpg) center left;
+	background-size: 115%;
+}
+
+@media screen and (max-width: 768px) {
+	.jumbotron {
+		background: url(http://www.klpolestudio.co.uk/assets/img/banners/007.jpg) center left;
+		background-size: 220%;
+	}
+
+}
+
+
+.dashnav > li > a > span {
+	color: #eee;
+	font-weight: 300;
+	top: -7px;
+	position: relative;
+	margin-left: 3px;
+}
+
+.dashnav > li > a {
+	padding-left: 44px;
+	padding-right: 44px;
+	text-align: center;
+}
+
+.dashnav > li > a.current {
+	opacity: 1;
+}
+
+.fa2.gallery 	{ background-image: url('../img/icons/gallery.png'); }
+.fa2.contact 	{ background-image: url('../img/icons/contact.png'); }
+.fa2.faq 		{ background-image: url('../img/icons/faq.png'); }
+.fa2.info 		{ background-image: url('../img/icons/info.png'); }
+.fa2.flag 		{ background-image: url('../img/icons/flag.png'); }
+.fa2.speechmark { background-image: url('../img/icons/speechmark.png'); }
+.fa2.shopping 	{ background-image: url('../img/icons/shopping.png'); }
+.fa2.home 		{ background-image: url('../img/icons/home.png'); }
+.fa2.calendar 	{ background-image: url('../img/icons/calendar.png'); }
+
+.left_tab > div > div, .right_tab > div {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.right_tab {
+	margin: 0px;
+	border-left: white 1px solid;
+}
+
+.left_tab {
+	margin: 0px;
+	border-right: #e5e5e5 1px solid;
+}
+
+span.main {
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.right_tab > div > hr {
+	margin-bottom: 10px;
+}
+
+h1, .h1 {
+	font-size: 60px;
+	color: #00827F;
+}
+
+p {
+	font-size: 17px;
+}
+
+h1.small {
+	font-size: 31px;
+	margin-top: 52px;
+}
+
+#map-marker i {
+	color: #00827F !important;
+}
+
+#gmap {
+	height: 500px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px;
+	margin: 40px 0px;
+}
+
+.twitter {
+	background: #eee;
+	margin: 20px -5px;
+	padding: 10px;
+}
+
+.twitter .date {
+	float: right;
+	text-align: right;
+}
+
+.twitter .fav {
+	float: left;
+}
+
+.twitter > .inner {	
+	opacity: 0.7;
+	height: 18px;
+	margin-top: 6px;
+}
+
+.twitter > .inner > div {
+	width: 49%;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0);
+	opacity: 1;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -90px;
+}
+.push {
+	height: 100px;
+}
+
+.footer {
+	-webkit-box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
+	background: #eee;
+	height: 90px;
+	padding: 20px;
+}
+
+.footer > * {
+	opacity: 0.5;
+}
+
+.footer > p {
+	color: #8E8E8E;
+}
+
+
+.profile {
+	margin: 6px 15px 0px -15px;
+}
+
+.instructor {
+	margin: 5px 0px;
+	padding: 25px 0px 25px 20px;
+    border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.instructor:hover {
+	background-color: #FAFAFA;
+	border: #00827F solid 1px;
+}
