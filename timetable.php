@@ -11,13 +11,15 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-3">
-			<h1 class="small">Hey there</h1>
+		<div class="col-md-12">
+			<h1 class="small" align="center">To book please <a href="https://v1.bookwhen.com/klpoleaerial" style="color:white" target="_blank">click here</a>.<br><br></h1>
 		</div>
 	</div>
 
 
+<?php include 'assets/config/timetable.php'; ?>
+
+
 </div>
 <?php include 'assets/footer.php'; ?>
-<?php include 'assets/gmap.php'; ?>
 

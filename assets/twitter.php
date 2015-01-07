@@ -67,13 +67,15 @@
                     );
 
                 // uncomment to check if the twitter array works
+                // echo "<pre>";
                 // print_r($tw);
-
+                // echo "</pre>";
                 $i = 0;
 
                 echo "<div class='twitter'>";
+                echo "<img src='" . $tweets[0]['user']['profile_image_url_https']. "'>";
                 echo "<h3>klpolestudio Twitter</h3>";
-                echo $tw['followers'] . " followers, " . $tw['followers'] . " following";
+                echo "<b>" . $tw['followers'] . " followers, " . $tw['following'] . " following</b>";
 
                 while ( $i < $twitterFeedCount) {       
 
@@ -92,13 +94,14 @@
                     } else {
                         $rt = "";
                     }
-
-                    echo "<hr>";
+                    echo "<a href='https://twitter.com/klpolestudio/status/" . $tweets[$i]['id'] . "' target='_blanks'>";
+                    echo "<span class='sexy_line'></span>";
                     echo $tweets[$i]['text']; 
                     echo "<div class='inner'>";
                     echo "<div class='fav'>" . $fav . $rt . "</div>";
                     echo "<div class='date'>" . $date . "</div>";
                     echo "</div>";
+                    echo "</a>";
                     $i++;
                 }
 

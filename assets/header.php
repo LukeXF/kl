@@ -5,56 +5,36 @@
 		"Home" =>   array(
 			"active" => "",
 			"url" => "support.php",
-			"icon" => "home",
 			"submenu" => array()
 		),
 
 		"About" =>   array(
 			"active" => "",
 			"url" => "about.php",
-			"icon" => "info",
-			"submenu" => array()
-		),
-
-		"FAQ" =>   array(
-			"active" => "",
-			"url" => "faq.php",
-			"icon" => "faq",
 			"submenu" => array()
 		),
 
 		"Timetable" =>   array(
 			"active" => "",
 			"url" => "timetable.php",
-			"icon" => "gallery",
 			"submenu" => array()
 		),
 
-		"Gallery" =>   array(
+		"Prices" =>   array(
 			"active" => "",
-			"url" => "gallery.php",
-			"icon" => "gallery",
+			"url" => "shop.php",
 			"submenu" => array()
 		),
 
-		"Experience Days" =>   array(
+		"Info" =>   array(
 			"active" => "",
-			"url" => "experience_days.php",
-			"icon" => "flag",
+			"url" => "info.php",
 			"submenu" => array()
 		),
 
 		"Contact Us" =>   array(
 			"active" => "",
 			"url" => "contact_us.php",
-			"icon" => "speechmark",
-			"submenu" => array()
-		),
-
-		"Book" =>   array(
-			"active" => "",
-			"url" => "shop.php",
-			"icon" => "shopping",
 			"submenu" => array()
 		)
 	);
@@ -65,9 +45,9 @@
 <html>
 	<head>
 		<?php 
-			$today = date("l");
+			$today = date("l jS");
 			$tomorrow = date("l", time() + 86400);
-			$twitterFeedCount = 3;
+			$twitterFeedCount = 7;
 		?>
 
 		<?php
@@ -91,8 +71,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+		<link href="assets/css/lightbox.css" rel="stylesheet" />
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
+		<script src="assets/js/lightbox.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 		<script src="//use.typekit.net/zra2rer.js"></script>

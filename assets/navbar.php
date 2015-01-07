@@ -1,9 +1,7 @@
-
-
-<div class="wrapper">
+<div class="wrapper" id="top">
 
 <nav class="navbar navbar-inverse" role="navigation">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
@@ -11,7 +9,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand animate" href="#">KL</a>
+			<a class="navbar-brand animate" href="#"><img src="assets/img/KL-Logo.png"></a>
 		</div>
 
 		<div class="collapse navbar-collapse dashboardnav" id="bs-example-navbar-collapse-1">
@@ -55,8 +53,7 @@
 						
 					} else {
 						echo "<li class='" . $class . "'><a class='animate' href='$url'>";
-						echo "<i class='fa2 " . $x_value["icon"] . "'></i>";
-						echo "<span>" . $x . "</span>";
+						echo $x;
 						echo "</a></li>";
 					}
 				}

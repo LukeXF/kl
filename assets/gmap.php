@@ -10,12 +10,13 @@
     if ($gmap.length > 0) {
         $gmap.each(function() {
             var $gmap = $(this);
-            var address = $gmap.attr('data-address') || 'Lakes Industrial Park, Braintree, Essex, UK';
+            var address = $gmap.attr('data-address') || 'Wheatear Industrial Estate, Perry Road, Witham, Essex, CM8 3YY';
 
             $gmap.gmap3({
                 map: {
                     options: {
-                        maxZoom: 10,
+                        maxZoom: 20,
+                        minZoom: 10,
                         streetViewControl: false,
                         mapTypeControl: false,
                     }
@@ -28,7 +29,7 @@
                     styles: [{
                         featureType: "all",
                         stylers: [{
-                            "saturation": 0
+                            "saturation": -100
                         }, {
                             "gamma": 0.9
                         }, {
@@ -48,7 +49,7 @@
                     }
                 }, //Following maxZoom option is for setting the initial zoom of google map
                 autofit: {
-                    maxZoom: 12
+                    maxZoom: 14
                 }
             }, "autofit");
 
