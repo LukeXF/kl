@@ -37,20 +37,31 @@
 	<div class="row">
 		<div class="col-md-3">
 
-			<h1 class="small">Today - <?php echo $today; ?></h1>
+			
 
 
-			<?php include 'assets/twitter.php'; ?>
+			
 
 
 		</div>
-		<div class="col-md-9" style="margin-left: 10px; margin-right: -10px;">
-
+		<div class="col-md-12">
+            
+			    <div class="col-md-12">
 			<div class="row">
-				<h1 class="small">Our New Studio Opens January 2015</h1>
+				<h1 class="small">PLEASE NOTE: Most of our classes are currently full.</h1>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;To join our waiting list please email info@klpolestudio.co.uk</p>
+				</div>
+			</div>
+					
+				
+				
+				
+				<div class="col-md-12">
+			<div class="row">
+				<h1 class="small">New Witham studio now OPEN!</h1>
 				<div class="col-md-12">
 					<p>
-						Due to our impending move to our new studio, we are currently unable to take any bookings until January 2015. If you would like to be added to our mailing list please email <a href="mailto:klpolestudio@googlemail.com">klpolestudio@googlemail.com</a> and you will be notified once we are ready to start taking bookings! Thank you!
+						
 					</p>
 					<p>
 						KL Pole &amp; Aerial Studio is one of the largest purpose built pole &amp; aerial schools in the south east. Teaching pole and aerial fitness we pride ourselves on being one of the most diverse studios!
@@ -109,7 +120,7 @@
 			<div class="row">
 				<div class="col-md-6">
 
-				<h1 class="small" style="margin-top: 0px;">What we do</h1>
+				<h1 class="small" style="margin-top: 0px;">See us in action</h1>
 					<p>
 						You can see all our disciplines in action below in our group ensemble performance from our showcase in November 2014!
 					</p>
@@ -118,7 +129,7 @@
 
 						<iframe 
 							width="100%" 
-							height="230px" 
+							height="400px" 
 							src="//www.youtube.com/embed/ru5O6_AcIY0?autoplay=0&amp;controls=0&amp;showinfo=0&amp;rel=0" 
 							frameborder="0" 
 							allowfullscreen>

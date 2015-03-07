@@ -29,7 +29,7 @@
 		<tr>
 			<td class="text-left"><!-- Monday --></td>
 			<td class="text-left">8:30pm-9:30pm</td>
-			<td class="text-left"><b>Pole Boot Camp</b><br>(All Levels) Spaces Available</td>
+			<td class="text-left"><b>Pole Boot Camp</b><br>(All Levels) Limited Spaces</td>
 			<td class="text-left"><!-- Blank --></td>
 		</tr>
 
@@ -50,7 +50,7 @@
 		<tr>
 			<td class="text-left"><!-- Tuesday --></td>
 			<td class="text-left">8:30pm-9:30pm</td>
-			<td class="text-left"><b>Pole Practise</b><br>Spaces Available</td>
+			<td class="text-left"><b>Pole Practise</b><br>(Current students or experienced ONLY)</td>
 			<td class="text-left"><b>Stretch Class</b><br>(All Levels) Spaces Available</td>
 		</tr>
 
@@ -59,15 +59,15 @@
 
 		<tr class="topbreak">
 			<td class="text-left">Wednesday</td>
-			<td class="text-left">7:00pm-8:0pm</td>
-			<td class="text-left"><b>Pole</b><br>(Mixed Abilities) Limited Spaces</td>
-			<td class="text-left"><b>Open Aerial Training</b></td>
+			<td class="text-left">7:00pm-8:00pm</td>
+			<td class="text-left opacity"><b>Pole</b><br>(Mixed Abilities) CLASS FULL</td>
+			<td class="text-left"><b>Open Aerial Training</b><br>(Current students or experienced ONLY)</td>
 		</tr>
 		<tr>
 			<td class="text-left"><!-- Wednesday --></td>
 			<td class="text-left">8:00pm-9:00pm</td>
 			<td class="text-left opacity"><b>Pole Bootcamp</b><br>(All Levels) CLASS FULL</td>
-			<td class="text-left"><b>Open Aerial Training</b></td>
+			<td class="text-left"><b>Open Aerial Training</b><br>(Current students or experienced ONLY)</td>
 		</tr>
 
 
@@ -77,12 +77,12 @@
 			<td class="text-left">Thursday</td>
 			<td class="text-left">7:00pm-8:00pm</td>
 			<td class="text-left opacity"><b>Pole</b><br>(Beginner/Intermediate) CLASS FULL</td>
-			<td class="text-left"><b>Stretch Class</b><br>(All Levels) Spaces Available</td>
+			<td class="text-left"><b>Beginners Aerial Course</b><br>(Starting late FEB)</td>
 		</tr>
 		<tr>
 			<td class="text-left"><!-- Thursday --></td>
-			<td class="text-left">8:00pm-9:30pm</td>
-			<td class="text-left"><b>Beginners Pole Course</b><br>(Starts 22nd Jan) Spaces Available</td>
+			<td class="text-left">8:00pm-9:00pm</td>
+			<td class="text-left opacity"><b>Beginners Pole Course</b><br>CLASS FULL</td>
 			<td class="text-left opacity"><b>Mixed Aerial</b><br>(Beginner/Intermediate) CLASS FULL</td>
 		</tr>
 

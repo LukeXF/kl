@@ -41,7 +41,7 @@
 						<div class="form-group">
 							<label class="col-md-2 control-label" for="msg">Message</label>
 							<div class="col-md-10">                     
-								<textarea class="form-control" id="msg" placeholder="Enter your friendly message here" name="msg" cols="6" rows="6"></textarea>
+								<textarea class="form-control" id="msg" placeholder="Enter your message here" name="msg" cols="6" rows="6"></textarea>
 							</div>
 						</div>
 
@@ -117,7 +117,7 @@
 					<b>Phone (Kaiya)</b> 
 				</div>
 				<div class="col-md-10">
-					<a href="tel:+447890419198">07890 419198</a> (PLEASE NOTE WE DO NOT GET A GOOD MOBILE SIGNAL SO IT CAN BE  HARD TO TAKE CALLS! It is easier to text or email us!) Email: <a href="mailto:klpolestudio@googlemail.com">klpolestudio@googlemail.com</a>
+					<a href="tel:+447890419198">07890 419198</a> (PLEASE NOTE WE DO NOT GET A GOOD MOBILE SIGNAL SO IT CAN BE  HARD TO TAKE CALLS! It is easier to text or email us!) Email: <a href="mailto:info@klpolestudio.co.uk">info@klpolestudio.co.uk</a>
 				</div>
 			</p>
 		</div>
@@ -155,8 +155,8 @@ jQuery(function($)
                     'text': msg,
                     'to': [
                     {
-                        'email': 'KLPoleStudio@gmail.com',
-                        'name': 'Kaiya Latham',
+                        'email': 'info@klpolestudio.co.uk',
+                        'name': 'KL Polestudio',
                         'type': 'to'
                     }]
                 }

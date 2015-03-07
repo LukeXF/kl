@@ -9,7 +9,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand animate" href="#"><img src="assets/img/KL-Logo.png"></a>
+			<a class="navbar-brand animate" href="http://klpolestudio.co.uk"><img src="assets/img/KL-Logo.png"></a>
 		</div>
 
 		<div class="collapse navbar-collapse dashboardnav" id="bs-example-navbar-collapse-1">

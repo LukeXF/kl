@@ -12,7 +12,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1 class="small" align="center">To book please <a href="https://v1.bookwhen.com/klpoleaerial" style="color:white" target="_blank">click here</a>.<br><br></h1>
+			<h1 class="small" align="center">To book please <a href="mailto:info@klpolestudio.co.uk" style="color:white" target="_blank">mail</a> our studio.<br><br></h1>
 		</div>
 	</div>
 

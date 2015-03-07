@@ -161,7 +161,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<p>	
-					For pole please either where shorts or a pair of jogging bottoms that can be rolled up to your knees. Any top is fine and you will be in bare feet. For boot camp please also bring trainers.
+					For pole please either wear shorts or a pair of jogging bottoms that can be rolled up to your knees. Any top is fine and you will be in bare feet. For boot camp please also bring trainers.
 				</p>
 			</div>
 			<div class="col-md-6">

@@ -8,8 +8,8 @@
 
 RewriteEngine On
 Options -Indexes
-ErrorDocument 403 http://demo.luke.sx/kl/
-ErrorDocument 404 http://demo.luke.sx/kl/
+ErrorDocument 403 http://klpolestudio.co.uk
+ErrorDocument 404 http://klpolestudio.co.uk
 
 RewriteEngine On
 RewriteBase /

@@ -154,66 +154,40 @@
 
 
 
-			<div class="row">
+			<div class="row" style="margin-bottom: 20px;">
 				<h1 class="small">PRIVATE TUITION</h1>
 				Private tuition is available in all our disciplines. Please contact us for availability!<br>
 
-				<div class="col-md-6">
-					<h1 class="small">Private Pole Lessons:</h1>
+				<div class="col-md-6 col-md-offset-3">
+					<h1 class="small">Private Lessons:</h1>
 					<div class="row">
 						<div class="col-xs-6">
 							1 person 
 						</div>
 						<div class="col-xs-6">
-							£25
+							£30
 						</div>
 						<div class="col-xs-6">
 							2 people 
 						</div>
 						<div class="col-xs-6">
-							£35
+							£40
 						</div>
 						<div class="col-xs-6">
 							3 people 
 						</div>
 						<div class="col-xs-6">
-							£40
+							£45
 						</div>
 						<div class="col-xs-6">
 							4 people 
 						</div>
 						<div class="col-xs-6">
-							£45
+							£50
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<h1 class="small">Private Aerial Lessons:</h1>
-					<div class="col-xs-6">
-						1 person 
-					</div>
-					<div class="col-xs-6">
-						£30
-					</div>
-					<div class="col-xs-6">
-						2 people 
-					</div>
-					<div class="col-xs-6">
-						£40
-					</div>
-					<div class="col-xs-6">
-						3 people 
-					</div>
-					<div class="col-xs-6">
-						£45
-					</div>
-					<div class="col-xs-6">
-						4 people 
-					</div>
-					<div class="col-xs-6">
-						£50
-					</div>
-				</div>
+				
 			</div>
 
 		</div>

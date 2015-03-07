@@ -160,8 +160,8 @@ h2.textside {
 
 
 .jumbotron {
-	background: url(http://demo.luke.sx/kl/assets/img/Kaiya2.png) center center;
-	background-size: 115%;
+	background: url(http://demo.luke.sx/kl/assets/img/Kaiya2.png) center center #cfc9cb;
+	background-size: 500px;
 	background-position: left -350px bottom -370px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -320,28 +320,9 @@ html, body {
 	color: white;
 }
 .push {
-	height: 100px;
+	height: 50px;
 	background-color: #111;
 }
-
-.footer {
-	-webkit-box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
-	-moz-box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
-	box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
-	background: #eee;
-	height: 90px;
-	padding: 20px;
-	background: #222;
-}
-
-.footer > * {
-	opacity: 0.5;
-}
-
-.footer > p {
-	color: #8E8E8E;
-}
-
 
 .profile {
 	margin: 6px 15px 0px -15px;
@@ -663,7 +644,7 @@ padding: 0;
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
 body {
-	background-color: #3e94ec;
+	background-color: #111;
 	font-family: "Roboto", helvetica, arial, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
@@ -877,4 +858,46 @@ th {
 td.opacity, td.opacity > b, td.opacity:hover {
 	opacity: 1;
 	color: rgba(255, 255, 255, 0.14) !important;
+}
+
+
+@media screen and (max-width: 768px) {
+   .navbar-brand > img {
+		width: 150px;
+	}
+	h1, .h1 {
+		font-size: 32px;
+	}
+	.discipline:first-child {
+		margin-left: 13px;
+	}
+	.jumbotron {
+		background-size: 67%;
+	}
+	.footer {
+		height: 140px;
+		text-align: center;
+		width:100%;
+	}
+	.footer p {
+		text-align: center;
+	}
+}
+
+.footer{
+	-webkit-box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 8px 18px -6px rgba(0,0,0,0.4);
+	height: 90px;
+	padding: 20px;
+	background-color: #222;
+	width:100%;
+}
+
+.footer > * {
+	opacity: 0.5;
+}
+
+.footer > p {
+	color: #8E8E8E;
 }

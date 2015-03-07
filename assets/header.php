@@ -4,7 +4,7 @@
 	$navbar2 = array(
 		"Home" =>   array(
 			"active" => "",
-			"url" => "support.php",
+			"url" => "http://klpolestudio.co.uk",
 			"submenu" => array()
 		),
 
@@ -72,11 +72,9 @@
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
-		<link href="assets/css/lightbox.css" rel="stylesheet" />
-
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" ></script>
-		<script src="assets/js/lightbox.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 
 		<script src="//use.typekit.net/zra2rer.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
